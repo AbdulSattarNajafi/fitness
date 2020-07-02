@@ -1,0 +1,69 @@
+.container-fluid{
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+.navbar-brand{
+	font-size: 30px;
+	font-weight: 500;
+	color:#fff !important;
+}
+.orange{
+	color:#fa7c30;
+}
+h1{
+	font-size: 60px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+}
+h3{
+	text-transform: uppercase;
+	color:black;
+	font-size: 28px;
+	font-weight: 700;
+}
+h5{
+	text-transform: uppercase;
+	color:black;
+	font-size: 20px;
+	font-weight: 600;
+}
+.white{
+	color: var(--white-color);
+	text-transform: uppercase;
+	text-transform: uppercase;
+}
+.btn:focus{
+	outline: none;
+	border:none;
+}
+.orange_button{
+	border:2px solid transparent;
+	background: #fa7c30;
+	color:#fff;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding:.6rem .8rem;
+	border-radius:2px;
+	transition: all .5s ease;
+}
+.orange_button:hover{
+	border:2px solid #fa7c30;
+	background:#fff;
+	color: #fa7c30;
+	border-radius:2px;
+}
+.orange_button:focus{
+	outline: none;
+}
+.white_text{
+	color:#fff;
+}

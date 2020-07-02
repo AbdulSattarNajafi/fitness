@@ -1,0 +1,322 @@
+@import url('all.min.css');
+@import url('partials/variables.css');
+@import url('partials/globle.css');
+
+body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+/*Start for Header*/
+header{
+	width: 100%;	
+}
+.header_row{
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 22;
+}
+.header_row .navbar .navbar-collapse .nav-link{
+	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	transition: .4s ease;
+}
+.header_row .navbar .navbar-collapse .nav-link:hover{
+	color:var(--orange-color) !important;
+}
+.header_row .navbar .navbar-collapse form ul{
+	margin:0;
+	padding:0;
+	display: flex;
+	flex-direction: row;
+}
+.header_row .navbar .navbar-collapse form a{
+	text-decoration: none;
+	border:1px solid transparent;
+	border-radius: 4px;
+	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	margin-left: 1rem;
+	padding: .5rem 1rem;
+	transition:all .4s ease-in-out;
+}
+.header_row .navbar .navbar-collapse form a:hover{
+	border:1px solid var(--white-color);
+	border-radius: 4px;
+}
+header .head_banner{
+	width: 100%;
+	background: url('../images/slider.jpg')no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	padding-top: 11.4rem;
+	padding-bottom: 20rem;
+}
+.head_banner .row .heading{
+	padding-left: 1.6rem;
+}
+.head_banner .row .heading p{
+	color:var(--white-color);
+}
+.head_banner .row .heading a{
+	margin-top:2.3rem;
+}
+/*End for Header*/
+/*Start of Online Booking*/
+main .booking{
+	position: absolute;
+	left: 14.5%;
+	right: 14.5%;
+	top:37.8rem;
+	z-index: 22;
+	max-width: 71%;
+	margin:0 auto;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	box-shadow:2px 5px 10px rgba(57,56,61,0.205);
+	cursor: pointer;
+	transition:.4s ease;
+}
+main .booking:hover{
+	box-shadow: var(--box-shadow);
+}
+main .booking img{
+	width: 100%;
+}
+.booking .booking_form{
+	width: 78%;
+	margin-top: 4rem;
+}
+.booking .booking_form form{
+	text-align: center;
+}
+.booking .booking_form form h3{
+	padding-bottom: 2rem;
+}
+.booking .booking_form form input{
+	border:none;
+	border-bottom: 1px solid black;
+	width: 150px;
+	margin:.5rem;
+}
+.booking .booking_form form input:focus{
+	outline: none;
+}
+.booking .booking_form form button{
+	margin-top:5rem;
+}
+main .online_booking{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #f1f4f6;
+	padding-top: 22rem;
+	z-index: 1;
+}
+.online_booking .booking_desc{
+	padding:1.6rem;
+	margin-top: 5rem;
+}
+.online_booking .booking_img{
+	padding-left: 6rem;
+}
+/*End of Online Booking*/
+/*Start of Fitness card*/
+main .fitness_card{
+	margin:4rem 0;
+	width: 100%;
+}
+.fitness_card .fitness_title{
+	padding-left: 1.6rem;
+	margin-bottom: 1rem;
+}
+.fitness_card .fitnesscards{
+	padding:0 6.5rem;
+}
+.fitness_card .fitnesscards .card{
+	background-color: #f1f4f6;
+	border:none;
+	cursor: pointer;
+	transition: .4s ease;
+}
+.fitness_card .fitnesscards .card:hover{
+	box-shadow: var(--box-shadow);
+}
+/*End of Fitness card*/
+/*Start of Trainer*/
+main .trainer{
+	width: 100%;
+	overflow-x: hidden;
+	background:url('../images/slider_2.jpg') no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.trainer .row .trainer_desc{
+	padding:7.4rem 0;
+}
+.trainer .row .trainer_desc h4{
+	color:#fff;
+	font-size: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.trainer .row .trainer_desc h1{
+	margin:2rem 0;
+}
+/*End of Trainer*/
+/*Start of Expert*/
+main .expert{
+	margin:4rem 0;
+	width: 100%;
+}
+.expert .expert_title{
+	padding-left: 1.6rem;
+	margin-bottom: 1rem;
+}
+.expert .expertcards{
+	padding:0 6.5rem;
+}
+.expert .expertcards .card .lower{
+	text-transform: capitalize;
+}
+.expert .expertcards .card{
+	background-color: #fff;
+	border:none;
+	cursor: pointer;
+	transition: .4s ease;
+}
+.expert .expertcards .card:hover{
+	box-shadow: var(--box-shadow);
+}
+/*End of Expert*/
+/*Start of call us*/
+main .call_us{
+	width: 100%;
+	overflow-x: hidden;
+}
+.call_us .row .left .call_desc,
+.call_us .row .right .call_desc{
+	padding:6.4rem 0;
+}
+.call_us .call_desc h2{
+	margin:1rem 0;
+}
+.call_us .row  .left{
+	background: url('../images/free_1.jpg') no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.call_us .row .right{
+	background: url('../images/free_2.jpg') no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+/*End of call us*/
+/*Start of Footer*/
+footer{
+	width: 100%;
+	overflow-x: hidden;
+	background: #161418;
+	margin:0;
+}
+footer .footer_size{
+	padding: 3rem 0;
+}
+.footer_size .footer_mrg{
+	padding-left: 1.6rem;
+}
+.footer_size .footer_mrg p{
+	color:var(--white-color);
+	margin-top:2.6rem;
+}
+.footer_size .footer_mrg .social_icons{
+	display: inline-block;
+}
+.footer_size .footer_mrg .social_icons p{
+	float: left;
+}
+.footer_size .footer_mrg .social_icons i{
+	float:left;
+	margin-top: 3rem;
+	margin-left: .8rem;
+	color:var(--white-color);
+	font-size: 14px;
+	transition: .4s ease;
+}
+.footer_size .footer_mrg .social_icons i:hover{
+	color:#fa7c30;
+}
+.footer_size .footer_mrg form{
+	margin-top: .5rem;
+	display: flex;
+	flex-direction: row;
+}
+.footer_size .footer_mrg form input{
+	border:none;
+	border-radius: 0;
+	padding: .6rem .94rem;
+}
+.footer_size .footer_mrg form button{
+	padding:.6rem 1.6rem;
+}
+.footer_size .blog h6,
+.footer_size .instagram h6{
+	color:var(--white-color);
+}
+.footer_size .blog .blog_desc{
+	margin-top: 3.2rem;
+}
+.footer_size .blog .blog_desc .blog_img{
+	margin-top: 2.2rem;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.footer_size .blog .blog_desc .blog_img img{
+	border:1px solid transparent;
+	border-radius: 4px;
+	width: 104px;
+	height: auto;
+	cursor: pointer;
+	transition:all .4s ease;
+}
+.footer_size .blog .blog_desc .blog_img img:hover{
+	border:1px solid gray;
+	border-radius: 4px;
+	filter: brightness(130%);
+}
+.footer_size .blog .blog_desc .blog_img p{
+	margin-left:1rem;
+}
+.footer_size .instagram .ig_image{
+	margin-top: 3.2rem;
+	margin-bottom: .8rem;
+}
+.footer_size .instagram .ig_image img{
+	width:82px;
+	height: auto;
+	cursor: pointer;
+	transition:brightness .4s ease;
+}
+.footer_size .instagram .ig_image img:hover{
+	filter: brightness(130%);
+}
+.footer_size .instagram a{
+	text-decoration: none;
+	color:var(--white-color);
+	transition: .4s ease;
+}
+.footer_size .instagram a:hover{
+	color:var(--orange-color);
+}
+/*End of Footer*/
